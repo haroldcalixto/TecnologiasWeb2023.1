@@ -1,0 +1,64 @@
+<!--
+    Atividade de laboratório 1 - 23/03/2023;
+    Disciplina: Tecnologias Web;
+    Professor: Fischer Ferreira;
+    Semestre: 2023.1
+    Aluno: Harold Calixto de Albuquerque;
+    Matrícula: 499735;
+-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Serviços de Software</title>
+    </head>
+    <body>
+        <h1>Serviços de Software</h1>
+        <p><i>A seguir você vai poder escolher softwares a serem instalados no seu aparelho</i></p>
+            <form action="Pagina6.html" method="post">
+                <b><p>Digite as seguintes Informações:</p></b>
+                    <input placeholder="Digite o seu Nome" type="text" name="nome" value=""/>
+                    <br><br>
+                    <input placeholder="Digite o seu CPF" type="number" name="cpf" value=""/>
+                    <br><br>
+
+                <b><p>Selecione os Softwares que você deseja Instalar</p></b>
+                    <select name="software">
+                        <option value="">
+                            Qual o tipo do seu aparelho?
+                        </option>
+                        <option value="IOS">
+                            IOS
+                        </option>
+                        <option value="Android">
+                            Android
+                        </option>
+                    </select>
+                    <br><br>
+                            <input type="checkbox" id="software" name="software" value="Ferramenta">
+                            <label for="software">Office Mobile</label><br>
+                            <input type="checkbox" id="software" name="software" value="Ferramenta">
+                            <label for="software">Notion</label><br>
+                            <input type="checkbox" id="software" name="software" value="Ferramenta">
+                            <label for="software">Trello</label><br>
+                            <input type="checkbox" id="software" name="software" value="Rede Social">
+                            <label for="software">Instagram</label><br>
+                            <input type="checkbox" id="software" name="software" value="Rede Social">
+                            <label for="software">Facebook</label><br>
+                            <input type="checkbox" id="software" name="software" value="Rede Social">
+                            <label for="software">WhatsApp</label><br>
+                            <input type="checkbox" id="software" name="software" value="Entretenimento">
+                            <label for="software">Netflix</label><br>
+                            <input type="checkbox" id="software" name="software" value="Entretenimento">
+                            <label for="software">HBO Max</label><br>
+                            <input type="checkbox" id="software" name="software" value="Entretenimento">
+                            <label for="software">Spotify</label><br>
+                            <input placeholder="Outro(s) software(s)" type="text" name="marca" value=""/>
+                            <br><br>
+
+                <b><p>Finalize o Envio das Informações</p></b>
+                    <input type="submit" onclick="alert('Solicitação Realizada!')" value="Enviar Solicitação">
+                    <input type="reset">
+            </form>
+    </body>
+</html>

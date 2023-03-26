@@ -1,0 +1,68 @@
+<!--
+    Atividade de laboratório 1 - 23/03/2023;
+    Disciplina: Tecnologias Web;
+    Professor: Fischer Ferreira;
+    Semestre: 2023.1
+    Aluno: Harold Calixto de Albuquerque;
+    Matrícula: 499735;
+-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro para Ordem de Serviço</title>
+    </head>
+    <body>
+        <h1>Cadastro para Ordem de Serviço</h1>
+        <p><i>A seguir você vai encontrar os campos a serem preenchidos para o Cadastro de uma ordem de serviço</i></p>
+            <form action="Pagina2.html" method="post">
+                <b><p>Digite as seguintes Informações:</p></b>
+                    <input placeholder="Digite o seu Nome" type="text" name="nome" value=""/>
+                    <br><br>
+                    <input placeholder="Digite o seu CPF" type="number" name="cpf"  value=""/>
+                    <br><br>
+                    <input placeholder="Digite o seu Logadouro" type="text" name="logadouro" value=""/>
+                    <br><br>
+                    <input placeholder="Digite o seu CEP" type="number" name="cep" value=""/>
+                    <br><br>
+                    <input placeholder="Digite a sua Cidade" type="text" name="cidade" value=""/>
+                    <br><br>
+                    <input placeholder="Digite o seu Estado" type="text" name="cidade" value=""/>
+                    <br><br>
+
+                <b><p>Qual a marca do Aparelho?</p></b>
+                    <input type="radio" id="motorola" name="marca" value="Motorola">
+                    <label for="marca">Motorola</label><br>
+                    <input type="radio" id="samsung" name="marca" value="Samsung">
+                    <label for="samsung">Samsung</label><br>
+                    <input type="radio" id="xiaomi" name="marca" value="Xiaomi">
+                    <label for="xiaomi">Xiaomi</label><br>
+                    <input type="radio" id="apple" name="marca" value="Apple">
+                    <label for="apple">Apple</label><br>
+                    <input type="radio" id="huawei" name="marca" value="Huawei">
+                    <label for="huawei">Huawei</label><br>
+                    <input type="radio" id="lg" name="marca" value="LG">
+                    <label for="lg">LG</label><br>
+                    <input type="radio" id="nokia" name="marca" value="Nokia">
+                    <label for="nokia">Nokia</label><br>
+                    <input placeholder="Outra Marca" type="text" name="marca" value=""/>
+                    <br><br>
+
+                <b><p>Qual o modelo do Aparelho?</p></b>
+                    <input placeholder="Digite o modelo do Aparelho" type="text" name="modelo" value=""/>
+                    <br><br>
+
+                <b><p>Descreva o defeito do Aparelho</p></b>
+                    <textarea name="relato" placeholder="Escreva um breve texto relatando o defeito do aparelho" rows="10" cols="40"></textarea>
+                    <br><br>
+
+                <b><p>Envie uma Imagem do Aparelho</p></b>
+                    <input type="file" name="image" value="">
+                    <br><br>
+
+                <b><p>Finalize o Envio das Informações</p></b>
+                    <input type="submit" onclick="alert('Cadastro Realizado!')" value="Enviar Dados">
+                    <input type="reset">
+            </form>
+    </body>
+</html>
