@@ -1,0 +1,77 @@
+<!--
+    Atividade de laboratório 2 - 30/03/2023;
+    Disciplina: Tecnologias Web;
+    Professor: Fischer Ferreira;
+    Semestre: 2023.1
+    Aluno: Harold Calixto de Albuquerque;
+    Matrícula: 499735;
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Cliente</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Cadastro de Cliente</h1>
+        </header>
+
+        <article>
+            <b><p>Conclusão de Cadastro: <progress id="file" max="100" value="70"> 70% </progress></p></b>
+            <form action="" method="post" class="cadastro">
+                <div class="cadastro">
+                  <label for="nome">Digite seu Nome: </label>
+                  <input type="text" name="name" id="name" required>
+                </div>
+                <div class="cadastro">
+                  <label for="data">Digite sua data de Nascimento: </label>
+                  <input type="date" name="data" id="data" required>
+                </div>
+                <div class="cadastro">
+                    <label for="email">Digite o seu Email: </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="cadastro">
+                    <label for="telefone">Digite seu Telefone: </label>
+                    <input type="tel" name="telefone" id="telefone" pattern="[0-9]{2}[0-9]{1}[0-9]{8}" required>
+                </div>
+                <div class="cadastro">
+                    <label for="adesao">Qual o seu mês de Adesão?: </label>
+                    <input type="month" name="adesao" id="adesao" required>
+                </div>
+                <div class="cadastro">
+                    <label for="quantidade">Quantos filmes você pretende ver? (Semanalmente): </label>
+                    <input type="number" name="quantidade" id="quantidade" min="1" max="7" required>
+                </div>
+                <div class="cadastro">
+                    <label for="cor">Qual a cor de sua escolha para Visualização? (Área do Cliente): </label>
+                    <input type="color" name="cor" id="cor" required>
+                </div>
+                <div class="cadastro">
+                    <label for="pagina">Página pessoal do Cliente: </label>
+                    <input type="url" name="pagina" id="pagina" required>
+                </div>
+                <div class="cadastro">
+                    <label for="cupom">Quando você deseja utilizar o cupom de desconto? (Primeira Compra): </label>
+                    <input type="datetime-local" name="cupom" id="cupom" required>
+                </div>
+                <div class="cadastro">
+                    <label for="generos">Quais a sua preferência por Gêneros de filmes? (De 0 a 5): </label>
+                    <b><p>Ação: <input type="range" name="generos" id="acao" min="0" max="5" required></p></b>
+                    <b><p>Drama: <input type="range" name="generos" id="drama" min="0" max="5" required></p></b>
+                    <b><p>Romance: <input type="range" name="generos" id="romance" min="0" max="5" required></p></b>
+                    <b><p>Comédia: <input type="range" name="generos" id="comedia" min="0" max="5" required></p></b>
+                    <b><p>Suspense: <input type="range" name="generos" id="suspense" min="0" max="5" required></p></b>
+                    <b><p>Terror: <input type="range" name="generos" id="terror" min="0" max="5" required></p></b>
+                    <b><p>Ficção Científica: <input type="range" name="generos" id="ficcao" min="0" max="5" required></p></b>
+                </div>
+                <input type="submit" onclick="alert('Cadastro Realizado!')" value="Enviar">
+                <input type="reset">
+              </form>
+        </article>
+    </body>
+</html>
