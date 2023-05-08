@@ -1,0 +1,399 @@
+/*
+    Atividade de laboratório 5 - 04/05/2023;
+    Disciplina: Tecnologias Web;
+    Professor: Fischer Ferreira;
+    Semestre: 2023.1
+    Aluno: Harold Calixto de Albuquerque;
+    Matrícula: 499735;
+*/
+
+.home{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.caixa{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.pag1{
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    align-items: end;
+    flex-direction: column;
+}
+
+.pag2{
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+    align-items: start;
+    flex-direction: row;
+}
+
+.pag3{
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    align-items: end;
+    flex-direction: row-reverse;
+}
+
+.pag4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pag5{
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pag6{
+    display: flex;
+    justify-content: end;
+    align-content: flex-start;
+    align-items: start;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.pag7{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pag8{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: start;
+    align-items: start;
+    flex-direction: row;
+}
+
+.pag9{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.caixa1{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.caixa2{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.caixa3{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.pag10{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.caixa4{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 800px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.caixa5{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 800px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.caixa6{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 800px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.pag11{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.caixa7{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+.pag12{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: row;
+}
+
+.caixa8{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.pag13{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: row;
+}
+
+.caixa9{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    order: -1;
+}
+
+.pag14{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: row;
+}
+
+.caixa10{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    order: 0;
+}
+
+.caixa11{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+    order: -1;
+}
+
+.pag15{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: row;
+}
+
+.caixa12{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    align-self: flex-start;
+}
+
+.pag16{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.caixa13{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    align-self: flex-end;
+}
+
+.pag17{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.caixa14{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100%;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+.pag18{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.caixa15{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 400px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+.pag19{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.caixa16{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.caixa17{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 50%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.caixa18{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+}
+
+.pag20{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
